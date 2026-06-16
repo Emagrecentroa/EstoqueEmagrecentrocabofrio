@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="theme-color" content="#0f1f3d">
-<title>Estoque – Emagrecentro Araruama</title>
+<title>Estoque – Emagrecentro</title>
 <style>
 :root {
   --azul: #0f1f3d;
@@ -318,7 +318,7 @@ html, body { height: 100%; background: var(--cinza); font-family: -apple-system,
 <div id="topo">
   <div>
     <h1>Emagrecentro</h1>
-    <span>Araruama — Controle de Estoque</span>
+    <span>Controle de Estoque</span>
   </div>
   <button id="btnNovo" onclick="abrirModalNovoProd()" title="Novo produto">+</button>
 </div>
@@ -412,7 +412,7 @@ html, body { height: 100%; background: var(--cinza); font-family: -apple-system,
     <div class="secao-titulo">Identificação</div>
     <div class="ajuste-card">
       <div class="ajuste-item">
-        <div><div class="ajuste-label">Nome da empresa</div><div class="ajuste-desc" id="cfg-nome-display">Emagrecentro Araruama</div></div>
+        <div><div class="ajuste-label">Nome da empresa</div><div class="ajuste-desc" id="cfg-nome-display">Emagrecentro</div></div>
         <button class="btn-ajuste" onclick="editarConfig('nome', 'Nome da empresa', cfg.nome)">Editar</button>
       </div>
       <div class="ajuste-item">
@@ -715,7 +715,7 @@ window.dispatchEvent(new Event('fbready'));
 // ================= DADOS =================
 let produtos = [];
 let historico = [];
-let cfg = { nome: 'Emagrecentro Araruama', wpp: '', min: 5, dias: 30 };
+let cfg = { nome: 'Emagrecentro', wpp: '', min: 5, dias: 30 };
 let fotoBase64 = null;
 let fotoEditBase64 = null;
 let prodAtualId = null;
